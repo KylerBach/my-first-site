@@ -1,0 +1,152 @@
+body {
+    font-family: forum, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+    
+header {
+    position: sticky;
+    top: 0;
+    background-color: #183153;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+
+
+header:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+header h1 {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    border-bottom: 3px solid #183153;
+}
+
+
+/* Main heading */
+h1 {
+    font-size: 50px;
+    color: #315b8e;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 36px;
+    color: #183153;
+    border-bottom: 3px solid #315b8e;
+    padding-bottom: 8px;
+}
+
+
+h3 {
+    font-size: 30px;
+    color: #315b8e;
+    margin-bottom: 10px;
+}
+
+
+
+nav {
+    background-color: #dce8f7;
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav a {
+    color: #183153;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+}
+
+
+nav a:hover {
+    background-color: white;
+    color: #477ac2;
+}
+
+
+
+.image-card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.image-card p {
+    color: #183153;
+    margin-top: 12px;
+}
+
+
+
+footer {
+    background-color: #183153;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
